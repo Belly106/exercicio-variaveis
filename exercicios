@@ -1,0 +1,40 @@
+/*
+*Isabelly Fernandes
+*
+*/
+
+//1. resposta = vai aparecer 10, 5
+//2. resposta = 10, 10, 10
+//3. resposta = variável p: horasTrabalhadas
+            //variável salário
+
+//exercícios de códigos
+let nomeNome = null;
+let idadeIdade = null;
+console.log(typeof nomeNome);
+console.log(typeof idadeIdade) 
+// retorna objeto pois seria o tipo que a variável é.
+nomeNome = prompt ("Qual seu nome?");
+idadeIdade = prompt ("Qual sua idade?");
+console.log(typeof nomeNome);
+console.log(typeof idadeIdade);
+//continua como object, porém agora aparece uma caixa perguntando o nome e a idade.
+console.log("Olá" ,nomeNome, "você tem" ,idadeIdade, "anos");
+
+//2
+const perguntaA = "Voce esta usando uma roupa azul hoje?"
+const perguntaB = "Voce esta usando uma roupa preta?"
+const perguntaC = "Voce gosta de usar roupas coloridas?"
+ let SIM;
+ let SIM;
+ let não;
+
+ //3
+ let a = 10;
+ let b = 25;
+ a = b;
+ b = c;
+ c = a;
+
+console.log(" o novo valor de a é " ,a);
+console.log(" o novo valor de b é" ,b);
